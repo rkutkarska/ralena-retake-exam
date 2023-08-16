@@ -24,10 +24,8 @@ jobs:
         
     - name: Installing npm 
       run: npm install
-      
     - name: Running unit tests
       run: npm run test:unit
-
     - name: Display softuni username
       run: echo "ralena"
 
